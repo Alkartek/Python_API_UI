@@ -1,0 +1,36 @@
+from selenium.webdriver.common.by import By
+
+
+
+LOCATOR_API1 = (By.XPATH, "//a[contains(text(),'List users')]")
+LOCATOR_API2 = (By.XPATH, "//a[contains(text(),'Single user')]")
+LOCATOR_API3 = (By.XPATH, "//a[contains(text(),'Single user not found')]")
+LOCATOR_API4 = (By.XPATH, "//a[contains(text(),'List <resource>')]")
+LOCATOR_API5 = (By.XPATH, "//a[contains(text(),'Single <resource>')]")
+LOCATOR_API6 = (By.XPATH, "//a[contains(text(),'Single <resource> not found')]")
+LOCATOR_API7 = (By.XPATH, "//a[contains(text(),'Create')]")
+LOCATOR_API8 = (By.XPATH, "//li[@data-http='put']/a")
+LOCATOR_API9 = (By.XPATH, "//li[@data-http='patch']/a")
+LOCATOR_API10 = (By.XPATH, "//a[contains(text(),'Delete')]")
+LOCATOR_API11 = (By.XPATH, "//a[contains(text(),'Register - successful')]")
+LOCATOR_API12 = (By.XPATH, "//a[contains(text(),'Register - unsuccessful')]")
+LOCATOR_API13 = (By.XPATH, "//a[contains(text(),'Login - successful')]")
+LOCATOR_API14 = (By.XPATH, "//a[contains(text(),'Login - unsuccessful')]")
+LOCATOR_API15 = (By.XPATH, "//a[contains(text(),'Delayed response')]")
+
+
+locator1 = (By.XPATH,"//span[contains(text(),'/api/users?page=2')]")
+locator2 = (By.XPATH, "//span[contains(text(),'/api/users/2')]")
+locator3 = (By.XPATH, "//span[contains(text(),'/api/users/23')]")
+locator4 = (By.XPATH, "//span[contains(text(),'/api/unknown')]")
+locator5 = (By.XPATH, "//span[contains(text(),'/api/unknown/2')]")
+locator6 = (By.XPATH, "//span[contains(text(),'/api/unknown/23')]")
+locator7 = (By.XPATH, "//span[contains(text(),'/api/users')]")
+locator8 = (By.XPATH, "//span[contains(text(),'/api/users/2')]")
+locator9 = (By.XPATH, "//span[contains(text(),'/api/users/2')]")
+locator10 = (By.XPATH, "//span[contains(text(),'/api/users/2')]")
+locator11 = (By.XPATH, "//span[contains(text(),'/api/register')]")
+locator12 = (By.XPATH, "//span[contains(text(),'/api/register')]")
+locator13 = (By.XPATH, "//span[contains(text(),'/api/login')]")
+locator14 = (By.XPATH, "//span[contains(text(),'/api/login')]")
+locator15 = (By.XPATH, "//span[contains(text(),'/api/users?delay=3')]")
